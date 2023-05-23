@@ -389,13 +389,16 @@ body {
     width: 370px;
 }
 
-.portfolio-works img {
-    margin-bottom: 20px;
-}
-
 .portfolio-works {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.portfolio-works .description {
+    padding-top: 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
