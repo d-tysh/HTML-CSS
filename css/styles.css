@@ -171,6 +171,15 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.location:focus,
+.location:hover,
+.email-footer:hover,
+.email-footer:focus,
+.phone-footer:hover,
+.phone-footer:focus {
+    color: var(--main-color);
+}
+
 /* ------STUDIO-------- */
 /* -------hero--------- */
 
