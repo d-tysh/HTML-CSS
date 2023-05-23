@@ -144,6 +144,10 @@ body {
     margin-bottom: 20px;
 }
 
+.page-footer address {
+    margin-top: 20px;
+}
+
 .logo-footer span {
     color: var(--main-color);
 }
