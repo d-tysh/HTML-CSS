@@ -155,15 +155,6 @@ h2.title {
     color: var(--main-color);
 }
 
-.email-header::before {
-    display: inline-block;
-    content: '';
-    background-image: url('../images/icons.svg#icon-envelope');
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-}
-
 /* -------footer---------- */
 
 .page-footer {
