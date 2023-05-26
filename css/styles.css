@@ -148,7 +148,7 @@ h2.title {
 
 .header-contacts {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .active .link {
