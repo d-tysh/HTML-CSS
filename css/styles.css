@@ -93,6 +93,8 @@ h2.title {
     color: var(--text-main-color);
     transition: color var(--transition-dur-and-func);
     position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-item-link:hover,
@@ -109,7 +111,7 @@ h2.title {
     width: 100%;
     border-radius: 2px;
     transition: background-color var(--transition-dur-and-func);
-    top: 46px;
+    bottom: -1px;
 }
 
 .active .menu-item-link::after,
@@ -159,6 +161,7 @@ h2.title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .menu .logo {
