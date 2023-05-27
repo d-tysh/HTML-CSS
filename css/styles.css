@@ -541,7 +541,7 @@ h2.title {
     font-size: 16px;
     color: var(--text-main-color);
     padding: 6px 22px;
-    transition: color var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func), background var(--transition-dur-and-func);
 }
 
 .portfolio-filter-list .active,
