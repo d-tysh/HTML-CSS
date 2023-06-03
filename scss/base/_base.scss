@@ -33,7 +33,7 @@ img {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     color: var(--text-main-color);
     line-height: 1.36;
     max-width: 1600px;
