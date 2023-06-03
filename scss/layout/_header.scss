@@ -1,7 +1,5 @@
 .page-header {
-    font-size: 14px;
-    font-weight: 500;
-
+    @include font-size-weight(14px, 500);
     border-bottom: 1px solid #ECECEC;
 
     &__container {

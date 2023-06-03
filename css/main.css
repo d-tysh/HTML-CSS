@@ -43,7 +43,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: var(--text-main-color);
   line-height: 1.36;
   max-width: 1600px;
@@ -72,7 +72,7 @@ h2.title {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 26px;
   color: #000000;
 }
@@ -203,8 +203,8 @@ h2.title {
   flex-direction: column;
 }
 .modal-form__title {
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -262,8 +262,8 @@ h2.title {
   outline: none;
 }
 .modal-form__field-description {
-  font-weight: 400;
   font-size: 12px;
+  font-weight: 400;
   color: var(--text-secondary-color);
   margin-bottom: 4px;
 }
@@ -279,8 +279,8 @@ h2.title {
 }
 
 .modal-form-button {
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   color: var(--color-white);
   align-self: center;
   padding: 10px 52px;
@@ -388,8 +388,8 @@ h2.title {
 }
 .page-footer__location {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--color-white);
@@ -397,8 +397,8 @@ h2.title {
 }
 .page-footer__email, .page-footer__phone {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -436,8 +436,8 @@ h2.title {
 }
 
 .subscribe__p {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--color-white);
   margin-bottom: 20px;
@@ -460,8 +460,8 @@ h2.title {
   border: 2px solid var(--main-color);
 }
 .subscribe__btn {
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,15 +505,15 @@ h2.title {
   padding-bottom: 94px;
 }
 .advantages__title {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--text-main-color);
   margin-bottom: 10px;
 }
 .advantages__description {
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-secondary-color);
@@ -556,8 +556,8 @@ h2.title {
 }
 .what-we-doing__description {
   position: absolute;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: var(--color-white);
@@ -589,16 +589,16 @@ h2.title {
   padding-bottom: 30px;
 }
 .employer__name {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-main-color);
   margin-bottom: 10px;
 }
 .employer__description {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-secondary-color);
@@ -646,15 +646,15 @@ h2.title {
 }
 .portfolio-filter__btn {
   background: #F5F4FA;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   color: var(--text-main-color);
   padding: 6px 22px;
   transition: color var(--transition-dur-and-func), background var(--transition-dur-and-func);
 }
 .portfolio-filter__list .active, .portfolio-filter__btn:hover, .portfolio-filter__btn:focus {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   color: var(--color-white);
   background: var(--main-color);
@@ -662,15 +662,15 @@ h2.title {
 }
 
 .work__title {
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   color: var(--text-main-color);
   margin-bottom: 4px;
   margin-left: 24px;
 }
 .work__description {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   color: var(--text-secondary-color);
   margin-bottom: 20px;
   margin-left: 24px;
@@ -702,8 +702,8 @@ h2.title {
 }
 
 .overlay {
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.55;
   color: var(--color-white);
   background: rgba(33, 150, 243, 0.9);

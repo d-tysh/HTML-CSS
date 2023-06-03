@@ -3,8 +3,7 @@
     flex-direction: column;
 
     &__title {
-        font-weight: 700;
-        font-size: 20px;
+        @include font-size-weight(20px, 700);
         text-align: center;
         margin-bottom: 12px;
     }
@@ -74,8 +73,7 @@
     }
 
     &__field-description {
-        font-weight: 400;
-        font-size: 12px;
+        @include font-size-weight(12px, 400);
         color: var(--text-secondary-color);
         margin-bottom: 4px;
     }

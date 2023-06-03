@@ -10,8 +10,7 @@
 
     &__btn {
         background: #F5F4FA;
-        font-weight: 500;
-        font-size: 16px;
+        @include font-size-weight(16px, 500);
         color: var(--text-main-color);
         padding: 6px 22px;
         transition: color var(--transition-dur-and-func), background var(--transition-dur-and-func);
@@ -20,8 +19,7 @@
     &__list .active,
     &__btn:hover,
     &__btn:focus {
-        font-weight: 500;
-        font-size: 16px;
+        @include font-size-weight(16px, 500);
         text-align: center;
         color: var(--color-white);
         background: var(--main-color);
@@ -32,16 +30,14 @@
 
 .work {
     &__title {
-        font-weight: 700;
-        font-size: 18px;
+        @include font-size-weight(18px, 700);
         color: var(--text-main-color);
         margin-bottom: 4px;
         margin-left: 24px;
     }
 
     &__description {
-        font-weight: 400;
-        font-size: 16px;
+        @include font-size-weight(16px, 400);
         color: var(--text-secondary-color);
         margin-bottom: 20px;
         margin-left: 24px;
@@ -78,8 +74,7 @@
 }
 
 .overlay {
-    font-weight: 400;
-    font-size: 18px;
+    @include font-size-weight(18px, 400);
     line-height: 1.55;
     color: var(--color-white);
     background: rgba(33, 150, 243, 0.9);
