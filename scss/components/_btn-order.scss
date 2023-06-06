@@ -1,7 +1,7 @@
 .btn-order {
     width: 216px;
     height: 50px;
-    @include font-size-weight (16px, 500);
+    @include font-size-weight (16px, 700);
     transition: box-shadow var(--transition-dur-and-func), background var(--transition-dur-and-func);
 
     &:hover,

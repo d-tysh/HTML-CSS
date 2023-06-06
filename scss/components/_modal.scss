@@ -1,7 +1,7 @@
 .modal {
     position: absolute;
-    width: 528px;
-    height: 581px;
+    // width: 528px;
+    // height: 581px;
     background: var(--color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -33,4 +33,26 @@
 .modal-close-btn:focus .modal-close-icon,
 .modal-close-btn:hover .modal-close-icon {
     fill: var(--main-color);
+}
+
+@media screen and (max-width: 767px) {
+    .modal {
+        width: 450px;
+        max-height: 100%;
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 450px;
+        max-height: 100%;
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modal {
+        width: 528px;
+    }
 }
