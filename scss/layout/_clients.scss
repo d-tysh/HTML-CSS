@@ -14,8 +14,7 @@
     }
 
     &__list-item:hover,
-    &__list-item:focus,
-    &__list-item:active {
+    &__list-item:focus {
         border-color: var(--main-color);
     }
 }
@@ -27,8 +26,7 @@
     transition: fill var(--transition-dur-and-func);
 
     .clients__list-item:hover &,
-    .clients__list-item:focus &,
-    .clients__list-item:active & {
+    .clients__list-item:focus & {
         fill: var(--main-color);
     }
 }
