@@ -48,6 +48,10 @@
         position: relative;
         overflow: hidden;
     }
+
+    &__img {
+        max-width: 100%;
+    }
 }
 
 .portfolio-works {

@@ -1129,6 +1129,9 @@ h2.title {
   position: relative;
   overflow: hidden;
 }
+.work__img {
+  max-width: 100%;
+}
 
 .portfolio-works {
   display: flex;
