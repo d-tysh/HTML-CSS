@@ -148,6 +148,7 @@ h2.title {
   align-items: center;
   background: transparent;
   border: 0;
+  z-index: 150;
 }
 
 .mobile-menu__close-icon {
@@ -821,8 +822,13 @@ h2.title {
   .advantages__title {
     text-align: center;
   }
+  .advantages__box {
+    display: flex;
+    justify-content: center;
+  }
   .advantages__img {
-    margin: 25px 190px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1002,10 +1008,12 @@ h2.title {
     flex-wrap: wrap;
   }
   .clients__list-item {
+    display: flex;
+    justify-content: center;
     width: calc((100% - 30px) / 2);
   }
   .client-icon {
-    margin: 16px 52px;
+    margin: 16px;
   }
 }
 @media screen and (min-width: 768px) {
