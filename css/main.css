@@ -993,7 +993,7 @@ h2.title {
   border-radius: 4px;
   transition: border-color var(--transition-dur-and-func);
 }
-.clients__list-item:hover, .clients__list-item:focus {
+.clients__list-item:hover, .clients__list-item:focus, .clients__list-item:active {
   border-color: var(--main-color);
 }
 
@@ -1003,7 +1003,7 @@ h2.title {
   fill: #AFB1B8;
   transition: fill var(--transition-dur-and-func);
 }
-.clients__list-item:hover .client-icon, .clients__list-item:focus .client-icon {
+.clients__list-item:hover .client-icon, .clients__list-item:focus .client-icon, .clients__list-item:active .client-icon {
   fill: var(--main-color);
 }
 
