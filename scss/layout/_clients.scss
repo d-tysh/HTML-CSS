@@ -38,12 +38,14 @@
         }
 
         &__list-item {
+            display: flex;
+            justify-content: center;
             width: calc((100% - 30px) / 2);
         }
     }
 
     .client-icon {
-        margin: 16px 52px;
+        margin: 16px;
     }
 }
 

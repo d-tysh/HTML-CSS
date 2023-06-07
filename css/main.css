@@ -124,19 +124,16 @@ h2.title {
   pointer-events: none;
   transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
 }
-
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
-
 .mobile-menu__container {
   position: relative;
   width: 450px;
   padding-left: 40px;
 }
-
 .mobile-menu__close-btn {
   position: absolute;
   width: 40px;
@@ -150,9 +147,11 @@ h2.title {
   border: 0;
   z-index: 150;
 }
-
 .mobile-menu__close-icon {
   transition: fill var(--transition-dur-and-func);
+}
+.mobile-menu__link {
+  color: var(--text-main-color);
 }
 
 .mobile-menu__close-btn:focus .mobile-menu__close-icon,
@@ -160,7 +159,12 @@ h2.title {
   fill: var(--main-color);
 }
 
-.mobile-menu__link.active {
+.mobile-menu__item:focus .mobile-menu__link,
+.mobile-menu__item:hover .mobile-menu__link {
+  color: var(--main-color);
+}
+
+.active .mobile-menu__link {
   color: var(--main-color);
 }
 
@@ -262,7 +266,7 @@ h2.title {
 
 @media screen and (max-width: 767px) {
   .modal {
-    width: 450px;
+    width: 100%;
     max-height: 100%;
     overflow: scroll;
   }
